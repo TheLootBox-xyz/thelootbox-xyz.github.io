@@ -575,10 +575,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -837,16 +833,8 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
   .sm\:mt-0 {
     margin-top: 0px;
-  }
-
-  .sm\:block {
-    display: block;
   }
 
   .sm\:items-stretch {
